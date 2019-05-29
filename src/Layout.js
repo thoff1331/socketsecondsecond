@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import io from "socket.io-client";
 // import { USER_CONNECTED, LOGOUT } from "../events";
-const socketUrl = "https://socketsecond.herokuapp.com/";
+const socketUrl = "https://socketsecond.herokuapp.com/:8080";
 
 class Layout extends Component {
   constructor(props) {
